@@ -9,13 +9,35 @@ body {
 }
 
 .left{
-    width: 25vw;
+    width: 20vw;
 }
 .right{
-    width: 75vw;
+    width: 80vw;
 }
 
 .home ul {
     list-style: none;
 
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    height: 20px;
+}
+
+.nav {
+    padding: 17px;
+}
+
+.search{
+    margin-left: 250px;
+}
+
+.log{
+    padding: 12px 22px;
+    background-color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+    border-radius: 30px;
 }
