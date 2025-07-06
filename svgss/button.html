@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .play-button {
+      width: 60px;
+      height: 60px;
+      background-color: #1ED760; /* Spotify green */
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .play-button:hover {
+      background-color: #1db954;
+    }
+
+    .play-icon {
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 18px solid black;
+      margin-left: 3px; /* slight center adjustment */
+    }
+</style>
+<body>
+    
+  <button class="play-button">
+    <div class="play-icon"></div>
+  </button>
+</body>
+</html>

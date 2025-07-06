@@ -1,19 +1,19 @@
-.border{
-    border:1px solid black;
+.border {
+    border: 1px solid black;
     border-radius: 9px;
-    margin:1px;
+    margin: 1px;
 }
 
 .lib-color {
-background-color:#121212;
-min-height: 85vh;
+    background-color: #121212;
+    min-height: 90vh;
 
 }
 
-.botn{
-     padding: 5px 2px;
-     width: 120px;
-     font-size: 10px;
+.botn {
+    padding: 5px 2px;
+    width: 120px;
+    font-size: 10px;
     background-color: white;
     font-weight: 900;
     font-family: sans-serif;
@@ -21,37 +21,39 @@ min-height: 85vh;
 }
 
 
-.flex{
+.flex {
     display: flex;
     list-style: none;
     gap: 14px;
     justify-content: space-between;
+    align-items: center;
 
 }
-.justify-content{
+
+.justify-content {
     justify-content: center;
 }
 
-.item-center{
+.item-center {
     align-items: center;
 }
 
-.invert{
+.invert {
     filter: invert(1);
 }
 
-.bg-border{
+.bg-border {
     background-color: rgb(255, 255, 255);
 
 }
 
-.font{
-        font-size: 12px;
+.font {
+    font-size: 13px;
     font-family: sans-serif;
     font-weight: 750;
 }
 
-.bg-color{
+.bg-color {
     background-color: #1f1f1f;
     padding: 20px;
     margin: 15px 10px;
@@ -62,13 +64,92 @@ min-height: 85vh;
     font-size: 12px;
 }
 
-.cookies{
+.cookies {
     font-size: 9px;
     font-family: sans-serif;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     padding: 14px;
- 
 
+
+}
+
+.card-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 82%;
+    align-items: flex-start;
+
+}
+
+.card {
+    width: 158px;
+    padding: 2px 10px 10px 10px;
+    position: relative;
+    flex-shrink: 0;
+    flex: 0 0 auto;
+
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.card h4 {
+    font-family: sans-serif;
+    padding: 5px 5px 5px 0px;
+
+}
+
+.card p {
+    font-size: 12px;
+    color: #b3b3b3;
+    padding: 5px 5px 5px 0px;
+    font-family: sans-serif;
+}
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+    max-height: 71vh;
+    overflow-y: scroll;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 76px;
+    right: 16px;
+    opacity: 0;
+    transition: all 0.9s ease-out;
+    width: 46px;
+    height: 46px;
+    background-color: #1ED760;
+    /* Spotify green */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.play-button:hover {
+    background-color: #1db954;
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 18px solid black;
+    margin-left: 3px;
+    /* slight center adjustment */
 }

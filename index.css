@@ -9,12 +9,15 @@ body {
 }
 
 .left {
-    width: 20vw;
+    width: 18vw;
     position: relative;
 }
 
 .right {
-    width: 80vw;
+    width: 82vw;
+    position:relative;
+
+
 }
 
 .home ul {
@@ -29,7 +32,7 @@ body {
 }
 
 .nav {
-    padding: 17px;
+    padding: 17px 10px 7px 10px;
 }
 
 .search {
@@ -74,10 +77,45 @@ body {
     font-size: 15px;
     border-radius: 30px;
     padding: 8px 10px;
-    border:1px solid white;
+    border: 1px solid white;
 
 }
 
-h4{
-    margin: 18px;
+
+.heading {
+    margin:12px ;
+}
+
+.trending-songs h4 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.trending-songs {
+    padding: 30px;
+}
+
+.play-bar {
+    position: absolute;
+    bottom: 0px;
+    width: 96%;
+    /* background-color:#1ED760; */
+    padding: 12px;
+    margin: 9px;
+}
+
+.play-buttons {
+    display: flex;
+    gap: 10px;
+}
+.previous , .play ,.next {
+    height: 20px;
+    width: 20px;
+    /* background-color: #946a6a; */
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
 }
