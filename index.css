@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,12 @@ body {
     color: white;
 }
 
-.left{
+.left {
     width: 20vw;
+    position: relative;
 }
-.right{
+
+.right {
     width: 80vw;
 }
 
@@ -30,14 +32,52 @@ body {
     padding: 17px;
 }
 
-.search{
+.search {
     margin-left: 250px;
 }
 
-.log{
+.log {
     padding: 12px 22px;
     background-color: white;
     font-weight: 900;
     font-family: sans-serif;
     border-radius: 30px;
+}
+
+.footer div a {
+    color: white;
+    text-decoration: none;
+}
+
+.parent-cookies {
+    position: absolute;
+    bottom: 0px;
+}
+
+.cokie a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+.language {
+    margin: 19px;
+}
+
+.language button {
+    background-color: transparent;
+    display: flex;
+    gap: 8px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 8px 10px;
+    border:1px solid white;
+
+}
+
+h4{
+    margin: 18px;
 }
