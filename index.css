@@ -119,3 +119,13 @@ body {
     align-items: center;
     cursor: pointer;
 }
+
+.songSearch {
+    color: white;
+}
+
+.songInfo{
+    height: 10px;
+    width: 60vw;
+    background-color: antiquewhite;
+}
